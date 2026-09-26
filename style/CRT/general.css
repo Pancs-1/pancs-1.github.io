@@ -79,7 +79,7 @@ nav {
 nav a {
     position: relative;
 
-    padding: 10px 14px;
+    padding: 10px 5px;
 
     color: var(--text);
     text-decoration: none;
@@ -91,11 +91,11 @@ nav a {
 }
 
 nav a::before {
-    content: ">";
+    content: "> ";
     opacity: 0;
 }
 nav a::after {
-    content: "<";
+    content: " <";
     opacity: 0;
 }
 
